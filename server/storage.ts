@@ -63,7 +63,8 @@ export class MemStorage implements IStorage {
     const scan: Scan = { 
       ...insertScan, 
       id, 
-      createdAt: new Date() 
+      createdAt: new Date(),
+      details: insertScan.details || null
     };
     this.scans.set(id, scan);
     return scan;
@@ -91,7 +92,8 @@ export class MemStorage implements IStorage {
     const feedback: Feedback = { 
       ...insertFeedback, 
       id, 
-      createdAt: new Date() 
+      createdAt: new Date(),
+      comment: insertFeedback.comment || null
     };
     this.feedbacks.set(id, feedback);
     return feedback;

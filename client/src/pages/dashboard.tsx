@@ -21,6 +21,11 @@ export default function Dashboard() {
   const closeFeedback = () => {
     setFeedbackVisible(false);
     setCurrentScanId(null);
+
+const Dashboard = () => {
+  return null;  
+};
+
   };
 
   return (
@@ -37,15 +42,6 @@ export default function Dashboard() {
                 <h1 className="text-xl font-semibold text-gray-900">PhishGuard</h1>
                 <p className="text-xs text-gray-500">Advanced Phishing Detection</p>
               </div>
-            </div>
-            <div className="flex items-center space-x-4">
-              <div className="hidden sm:flex items-center space-x-2 text-sm text-gray-600">
-                <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                <span>System Online</span>
-              </div>
-              <button className="text-gray-500 hover:text-gray-700">
-                <Settings className="h-5 w-5" />
-              </button>
             </div>
           </div>
         </div>
