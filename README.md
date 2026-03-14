@@ -1,4 +1,3 @@
-
 📌 Abstract
 --
 Phishing websites imitate legitimate platforms to steal sensitive user information such as login credentials and financial data. Traditional phishing detection techniques—such as blacklist checking and basic URL analysis—often fail against newly created or visually deceptive phishing websites.
